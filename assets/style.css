@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans Unicode";
+  background-color: rgba(47, 47, 47, 0.2);
+}
+header {
+  margin-top: 0;
+  text-align: center;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans";
+}
+
+#tribute-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+li,
+#quote {
+  text-align: justify;
+  margin: 0 2rem 0 2rem;
+}
+.italic,
+#quote {
+  font-style: italic;
+}
+#img-div {
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 2rem;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+@media (max-width: 400px) {
+  #image {
+    width: 50%;
+  }
+}
+@media (min-width: 400px) and (max-width: 1080px) {
+  #image {
+    width: 60%;
+  }
+}
+#tribute-info,
+#subtitle-bio {
+  text-align: center;
+}
