@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id='title'>HTML Forms</h1>
+    <p id='description'>Learn through practice</p>
+    <div id="form-div">
+        <form id="survey-form" action="">
+            <label for="name" id="name-label">Your Name: </label>
+                <input type="text" id="name" placeholder="Enter your name" required><br>
+            <label for="email" id="email-label">Your Email: </label>
+                <input type="email" id="email" placeholder="Enter your email"
+            required> <br>
+            <label for="number" id="number-label">How old are you?: </label>
+                <input type="number" id="number" placeholder="Enter your age" min="1" max="150">
+            <br>
+            <label for="dropdown">Choose an option: </label>
+                <select name="avatar" id="dropdown">
+                    <option value="Choose your bending element">
+                        Choose your bending element
+                    </option>
+                    <option value="water">water</option>
+                    <option value="air">air</option>
+                    <option value="fire">fire</option>
+                    <option value="earth">earth</option>
+                </select>
+                <br><br>
+            <label for="radiobuttons" class="boxes">Choose the best character from the Avatar's Team</label> <br>
+                
+                <input type="radio" id="Aang" name="fav_charc" value="Aang">
+                    <label for="aang">Aang</label><br>
+                <input type="radio" id="Katara" name="fav_charc" value="Katara">
+                    <label for="Katara">Katara</label><br>
+                <input type="radio" id="Toph" name="fav_charc" value="Toph">
+                    <label for="Toph">Toph</label><br>
+                <input type="radio" id="Sokka" name="fav_charc" value="Sokka">
+                    <label for="Sokka">Sokka</label><br>
+                <input type="radio" id="Zuko" name="fav_charc" value="Zuko">
+                    <label for="Zuko">Zuko</label><br>
+                    <br>
+            <label for="checkboxes" class="boxes">Choose your favorite Avatar series</label><br>
+            
+            <input type="checkbox" name="Korra" id="Korra" value="Korra">
+                <label for="Korra">The legend of Korra</label><br>
+            <input type="checkbox" name="ATLA" id="ATLA" value="Atla">
+                <label for="ATLA">Avatar- The last Airbender</label>
+                <br><br>
+            <label for="comments">Any comments or suggestions?</label><br>
+            <textarea name="comments" id="comments" cols="40" rows="8"
+            placeholder="Enter your comments over here..."></textarea>
+        <br>
+        <button id="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

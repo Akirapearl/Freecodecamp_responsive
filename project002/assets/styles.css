@@ -1,0 +1,64 @@
+#title, #description{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+body{
+    margin:0;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande';
+    background-image: url('https://freephotos.cc/storage/preview/path/4XhmPCroYRes5i2IMxrnUvVV5Crjo9ZqyDaseCRT.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#form-div {
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid;
+    background-color: rgba(255,255,255,0.85);
+}
+form {
+    display: inline-block;
+}
+label{
+    float: left;
+    
+}
+input{
+    float: right;
+}
+#dropdown{
+    float: right;
+    padding: 4px 5px;
+    border: none;
+    border-radius: 1rem;
+    background-color: #e6b3b3;
+    color: white;
+    font-weight: bold;
+}
+input[type="radio"]{
+    float:left!important;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]
+{
+    padding: 4px 5px;
+    border: none;
+    border-radius: 1rem;
+    background-color: #e6b3b3;
+    color: white;
+    font-weight: bold;
+} 
+#submit
+    {background-color: #555555;
+        border: none;
+        border-radius: 2rem;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        width: 100%;
+}
