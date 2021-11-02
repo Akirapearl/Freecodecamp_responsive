@@ -4,4 +4,4 @@ Intended to be a point to show my current progress with the freecodecamp respons
 
 First project: Tribute page.
 
-![Tribute page](http:/github.com/Akirapearl/Freecodecamp_responsive/tree/main/project001/Screenshot.png)
+![Tribute page](https://github.com/Akirapearl/Freecodecamp_responsive/blob/main/project001/Screenshot.png)
