@@ -35,7 +35,7 @@ Intended to be a point to show my current progress with the freecodecamp respons
 
 
 ## Fifth project: Personal portfolio.
--- Still ongoing project
+-- Still upgradeable, wont be done here, planning about making it a real github site as a portfolio
 
 ![Technical Documentation](https://github.com/Akirapearl/Freecodecamp_responsive/blob/main/project005/Screenshot.png)
 
